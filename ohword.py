@@ -2,6 +2,9 @@ import os
 import openai
 import argparse
 import re
+from dotenv import load_dotenv
+
+load_dotenv()
 
 MAX_INPUT_LENGTH = 32
 
